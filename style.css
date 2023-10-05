@@ -1,0 +1,32 @@
+h1{
+    font-size: 80px;
+    color:cadetblue;
+    text-align: center;
+}
+p{
+    font-size: 35px;
+    text-align: center;
+    color:darkblue;
+}
+.sec{
+    color:crimson;
+}
+.a{
+    color: black;
+}
+.leg{
+    color: blue;
+    font-size: 20px;
+}
+.fname{
+    color:cadetblue;
+    font-size: 19px;
+}
+.lname{
+    color: cadetblue;
+    font-size: 19PX;
+}
+.hobby{
+    color:cadetblue;
+    font-size: 19px;
+}
