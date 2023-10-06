@@ -1,15 +1,17 @@
-h1{
+.head{
     font-size: 80px;
     color:cadetblue;
     text-align: center;
 }
-p{
+.p{
     font-size: 35px;
     text-align: center;
     color:darkblue;
 }
 .sec{
     color:crimson;
+    font-size: 35px;
+    text-align: center;
 }
 .a{
     color: black;
