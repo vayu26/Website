@@ -1,6 +1,12 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+    background-color:#135565;
+}
 .head{
     font-size: 80px;
-    color:cadetblue;
+    color:#0a369d;
     text-align: center;
 }
 .p{
@@ -9,26 +15,31 @@
     color:darkblue;
 }
 .sec{
-    color:crimson;
+    color:#194F21;
     font-size: 35px;
     text-align: center;
 }
 .a{
-    color: black;
+    color: #194F21;
 }
 .leg{
-    color: blue;
-    font-size: 20px;
+    text-align: center;
+    color:#fff;
+    font-size: 50px;
 }
 .fname{
-    color:cadetblue;
-    font-size: 19px;
+    color:#fff;
+    font-size: 25px;
 }
 .lname{
-    color: cadetblue;
-    font-size: 19PX;
+    color:#fff;
+    font-size:25PX;
 }
 .hobby{
-    color:cadetblue;
-    font-size: 19px;
+    color:#fff;
+    font-size: 25px;
+}
+.n{
+    font-size: 1.10rem;
+    padding: 0.05rem;
 }
