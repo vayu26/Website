@@ -1,13 +1,15 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
-.body{
+.formbody{
     background-color:#135565;
 }
 .head{
-    font-size: 80px;
+    font-size: 70px;
     color:#0a369d;
     text-align: center;
+    padding: 2px;
 }
 .p{
     font-size: 35px;
@@ -29,17 +31,21 @@
 }
 .fname{
     color:#fff;
-    font-size: 25px;
+    font-size: 1.8rem;
 }
 .lname{
     color:#fff;
-    font-size:25PX;
+    font-size:1.9rem;
 }
 .hobby{
     color:#fff;
-    font-size: 25px;
+    font-size: 2rem;
 }
 .n{
-    font-size: 1.10rem;
+    font-size: 2.0rem;
     padding: 0.05rem;
+    color: #ffff;
+}
+.i{
+    padding:1%;
 }
