@@ -1,51 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap );
+
 *{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    font-family:'Lora', serif;
+    margin:0;
+    padding: 0;
 }
-.formbody{
-    background-color:#135565;
+body{
+    background-color: #fbe4d8;
 }
-.head{
-    font-size: 70px;
-    color:#0a369d;
+#repulse-div{
+    appearance: none;
+    filter: drop-shadow(0 0 5rem #e7adc6);
+
+}
+.w-full{
+    width:100%;
+}
+.relative{
+    position: relative;
+}
+.h-screen{
+    height:50vh;
+}
+.flex{
+    display: flex;
+}
+.text-center{
     text-align: center;
-    padding: 2px;
 }
-.p{
-    font-size: 35px;
-    text-align: center;
-    color:darkblue;
+.justify-center{
+    justify-content: center;
 }
-.sec{
-    color:#194F21;
-    font-size: 35px;
-    text-align: center;
+.items-center{
+    align-items: center;
 }
-.a{
-    color: #194F21;
+.flex-col{
+    flex-direction: column;
 }
-.leg{
-    text-align: center;
-    color:#fff;
-    font-size: 50px;
+.cursor-default{
+    cursor: default;
 }
-.fname{
-    color:#fff;
-    font-size: 1.8rem;
+.text-7xl{
+    font-size: 6rem;
+    line-height: 1;
 }
-.lname{
-    color:#fff;
-    font-size:1.9rem;
+.text-color{
+    color: #2b124c;
 }
-.hobby{
-    color:#fff;
+a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px #190019;
+    border-radius: 2rem;
+    background-color: transparent;
+    color: #2b124c;
+    text-decoration: none;
     font-size: 2rem;
+    margin: 5px;
+    padding: 20px;
+    width: 20vw;
+    align-items: center;
+    transition: 0.5s all;
 }
-.n{
-    font-size: 2.0rem;
-    padding: 0.05rem;
-    color: #ffff;
-}
-.i{
-    padding:1%;
+a:hover{
+    transform: scale(1.04);
+    background-color:#190019;
+    border: none;
+    color: #fbe4fb;
+    transition: 0.3s all;
+    font-weight:bold;
 }
