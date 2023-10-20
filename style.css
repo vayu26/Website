@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap );
-
+@import url(https://fonts.googleapis.com/css2?family=Cutive&family=Junge&family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap);
 *{
     font-family:'Lora', serif;
     margin:0;
@@ -7,11 +8,6 @@
 }
 body{
     background-color: #fbe4d8;
-}
-#repulse-div{
-    appearance: none;
-    filter: drop-shadow(0 0 5rem #e7adc6);
-
 }
 .w-full{
     width:100%;
@@ -29,7 +25,10 @@ body{
     text-align: center;
 }
 .justify-center{
-    justify-content: center;
+    justify-content:center;
+}
+.justify-fstart{
+    justify-content: flex-start;
 }
 .items-center{
     align-items: center;
@@ -47,11 +46,27 @@ body{
 .text-color{
     color: #2b124c;
 }
+.f-poem{
+    font-family: 'Satisfy',serif;
+}
+.f-essay{
+    font-family: 'Junge',serif;
+}
+.f-rev{
+    font-family: 'Josefin Slab',serif;
+    font-weight: bold;
+}
+.f-size{
+    font-size: 3rem;
+}
+.opacity{
+    opacity: 100;
+}
 a{
     display: flex;
     align-content: center;
     justify-content: center;
-    border: 1px #190019;
+    border: 5px #190019;
     border-radius: 2rem;
     background-color: transparent;
     color: #2b124c;
@@ -59,9 +74,10 @@ a{
     font-size: 2rem;
     margin: 5px;
     padding: 20px;
-    width: 20vw;
+    width: 30vw;
     align-items: center;
     transition: 0.5s all;
+    outline: 3px green;
 }
 a:hover{
     transform: scale(1.04);
