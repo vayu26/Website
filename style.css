@@ -104,5 +104,5 @@ a:hover{
 .col-change:hover{
     transition:all 0.03s;
     transition: ease-out;
-    color:#ff758f;
+    color:#e63946;
 }
